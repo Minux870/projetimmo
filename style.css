@@ -1,0 +1,32 @@
+p {
+    max-height: 24rem;
+    text-overflow: Ellipsis; /* will make [...] at the end */
+    white-space: nowrap; /* paragraph to one line */
+    overflow:hidden; /* older browsers */
+    /*max-width: 255ch;*/
+}
+.img-thumbnail {
+    height: 238px;
+    
+}
+.img_single_thumb{
+    width: 20%;
+    height: auto;
+}
+/* CAROUSEL Full Screen Modal */
+.modal.modal-fullscreen .modal-content {
+    background: rgba(0, 0, 0, 0.5);
+}
+/* Modal Title */
+.modal.modal-fullscreen .modal-header {
+    border: 0;
+    color: rgb(151, 161, 179);
+}
+/* Modal Body */
+.modal-body {
+    color: blueviolet;
+}
+/* Modal Footer */
+.modal.modal-fullscreen .modal-footer {
+    border-color: rgba(26, 25, 25, 0.5);
+}
